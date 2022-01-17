@@ -15,6 +15,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var tableView: UITableView!
     
+    
+    
     var posts = [PFObject]()
     
     override func viewDidLoad() {
@@ -26,6 +28,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         // Do any additional setup after loading the view.
     }
     
+
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
