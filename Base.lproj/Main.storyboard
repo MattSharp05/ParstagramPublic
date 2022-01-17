@@ -97,10 +97,6 @@
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="a9w-0P-G70" secondAttribute="bottom" constant="8" id="veB-gD-k88"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="commentLabel" destination="a9w-0P-G70" id="EZN-G8-XhE"/>
-                                            <outlet property="nameLabel" destination="2f5-NW-6tP" id="WHo-Wy-Cid"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
